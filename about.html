@@ -4,17 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link href="site.webmanifest" rel="manifest">
+  <link href="icon.png" rel="apple-touch-icon">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta content="#fafafa" name="theme-color">
 </head>
 
 <body>
@@ -27,10 +27,10 @@
 
 <div id="wrapper">
   <div id="top">
-    <div id="logo" class="floatLeft">
+    <div class="floatLeft" id="logo">
       <img class="logo_image grSmall" src="img/tech.jpg"/>
     </div>
-    <div id="main_menu" class="floatLeft grBig">
+    <div class="floatLeft grBig" id="main_menu">
       <menu>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -43,30 +43,14 @@
   <div id="masthead">
 
   </div>
-  <div id="content"class="floatLeft grBig">
+  <div class="floatLeft grBig" id="content">
     <div id="article_heading">
       <h1>Haydy Abdalla</h1>
     </div>
     <div id="article_text">
       <p>
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu fermentum felis. Praesent facilisis mauris velit,
-        vitae scelerisque arcu tempor et. Sed iaculis ac elit id egestas. Aenean maximus eros aliquam felis tempor iaculis.
-        Morbi ultricies lectus felis, ac mollis lacus venenatis vel. Duis et pellentesque erat. Praesent viverra finibus
-        suscipit. Quisque vel pretium arcu, pulvinar ullamcorper leo. Mauris libero magna, congue sed porta at, eleifend a
-        mi. Pellentesque eget bibendum sapien, eget volutpat est. Donec consectetur volutpat leo id pellentesque. Integer
-        fringilla nulla et sagittis varius. Aliquam condimentum, nisi ac porta ullamcorper, nisl ante pellentesque tortor,
-        ac suscipit lorem odio non leo. Morbi felis urna, malesuada a risus non, egestas fringilla ligula. In luctus
-        convallis felis sit amet sodales.
-      </p>
-      <div id="sidebar" class="floatRight grSmall">
-        <div id="sidebar_image">
-          <img height="390" src="img/Haydyprofilepic.jpg" width="320"/>
-        </div>
-      </div>
-
-      <h1>Paulina</h1>
-      <p>
-        Nam placerat quam ligula. Cras ac pretium orci. Nulla facilisi. Fusce interdum ex dolor, ut cursus eros hendrerit
+        Nam placerat quam ligula. Cras ac pretium orci. Nulla facilisi. Fusce interdum ex dolor, ut cursus eros
+        hendreritSed dignissim mauris rhoncus, ornare nibh hendrerit, ultrices nisi. Sed urna eut cursus eros
         ac. Sed dignissim mauris rhoncus, ornare nibh hendrerit, ultrices nisi. Sed urna erat, placerat nec nunc at,
         dignissim porta est. Aenean ac lectus fringilla, porttitor lacus vel, sodales mauris. Sed sed ante quis augue
         volutpat pulvinar non iaculis nulla. Ut mattis ultrices tortor ac gravida. Fusce aliquet metus consectetur lacus
@@ -74,40 +58,58 @@
         massa. Phasellus posuere, tortor ut sagittis volutpat, mauris enim egestas elit, a dapibus ipsum dolor at urna.
         Vestibulum arcu est, convallis sit amet tortor non, sodales tristique lectus.
       </p>
-    <div id="sidebar" class="floatRight grSmall">
-      <div id="sidebar_image">
-        <img height="390" src="img/Paulinaprofilepic.jpg" width="320"/>
+      <div class="float_left gr_width_small" id="sidebar">
+        <div class="margin_left_right_auto" id="side_photo">
+          <img height="390" src="img/HaydyAbdallaProfile.jpg" width="320"/>
+        </div>
       </div>
 
-  </div>
-  <div id="footer" class="clear centerText">
-    © Haydy & Paulina -
-    <script type="text/javascript">
-        var d = new Date()
-        document.write(d.getFullYear())
+      <h1>Paulina Ortiz</h1>
+      <p>
+        Nam placerat quam ligula. Cras ac pretium orci. Nulla facilisi. Fusce interdum ex dolor, ut cursus eros
+        hendreritSed dignissim mauris rhoncus, ornare nibh hendrerit, ultrices nisi. Sed urna eut cursus eros
+        ac. Sed dignissim mauris rhoncus, ornare nibh hendrerit, ultrices nisi. Sed urna erat, placerat nec nunc at,
+        dignissim porta est. Aenean ac lectus fringilla, porttitor lacus vel, sodales mauris. Sed sed ante quis augue
+        volutpat pulvinar non iaculis nulla. Ut mattis ultrices tortor ac gravida. Fusce aliquet metus consectetur lacus
+        ultrices rhoncus. Aenean ut suscipit nisl, ullamcorper tempor lectus. Suspendisse a dictum magna, eu consectetur
+        massa. Phasellus posuere, tortor ut sagittis volutpat, mauris enim egestas elit, a dapibus ipsum dolor at urna.
+        Vestibulum arcu est, convallis sit amet tortor non, sodales tristique lectus.
+      </p>
+      <div class="float_left gr_width_small" id="sidebar">
+        <div class="margin_left_right_auto" id="side_photo">
+          <img height="390" src="..........." width="320"/>
+        </div>
+      </div>
+
+      </div>
+      <div class="clear centerText" id="footer">
+        © Haydy & Paulina -
+        <script type="text/javascript">
+            var d = new Date()
+            document.write(d.getFullYear())
+        </script>
+      </div>
+    </div>
+
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
     </script>
-  </div>
-</div>
-
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-    window.ga = function () {
-        ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('set', 'transport', 'beacon');
-    ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 
 </html>
