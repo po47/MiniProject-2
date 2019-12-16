@@ -5,7 +5,7 @@
       <paths name="afsnjit">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="MiniProject-2" local="$PROJECT_DIR$" web="/MiniProject-2" />
           </mappings>
         </serverdata>
       </paths>
