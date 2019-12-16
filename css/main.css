@@ -97,69 +97,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#wrapper {
-  width: 960px;
-  border: black thin;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-  line-height: 30px;
-  font-family: SansSerif, "Helvetica Neue", Helvetica;
-}
-#logo img {
-  height: 116px;
 
-}
-#article_text {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-#top {
-  height: 120px;
-  line-height: 120px
-}
-#masthead {
-  height: 78px;
-  background-size: cover;
-  background: url(../img/bkgd.jpg) no-repeat;
-  background-position-y: center;
-}
-#main_menu menu {
-  padding: 0px;
-  margin: 0px;
-  text-align: right;
-}
-#sidebar img {
-  padding: 20px;
-}
-#sidebar_image {
-  margin-right: auto;
-  margin-left: auto;
-  width: 320px;
-}
-#footer {
-  height: 120px;
-}
-.centerText {
-  text-align: center;
-}
-.floatLeft {
-  float: left;
-}
-.grBig {
-  width: 593px;
-}
-.grSmall {
-  width: 367px;
-}
-.clear {
-  clear: both;
-}
-#main_menu li  {
-  display: inline;
-  margin: 0px 0px 0px 30px;
-
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -254,9 +192,9 @@ textarea {
 }
 
 @media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -273,7 +211,6 @@ textarea {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster */
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
