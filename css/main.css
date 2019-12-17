@@ -124,6 +124,15 @@ textarea {
   background: url(../img/bkgd.jpg) no-repeat;
   background-position-y: center;
 }
+#masthead_landing{
+  height: 367px;
+  background-image: url("../img/bkgd.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  clear: both;
+}
 #main_menu menu {
   padding: 0px;
   margin: 0px;
@@ -159,6 +168,10 @@ textarea {
   display: inline;
   margin: 0px 0px 0px 30px;
 
+}
+.callout {
+  width: 320px;
+  height: 196px;
 }
 /* ==========================================================================
    Helper classes
